@@ -5,6 +5,11 @@ This is a Android NDK package of the CyaSSL Embedded SSL library, which
 also includes a CTaoCrypt test application.  It should be helpful to Android
 developers who are embedding the CyaSSL library into NDK applications.
 
+By default, this package builds the CyaSSL library as a static library,
+which is needed in order to be linked to the TestCTaoCrypt application's 
+native library (libctctest.so). It should be trivial to build a shared 
+CyaSSL library, if need be.
+
 ===========================================================================
 REQUIREMENTS:
 
