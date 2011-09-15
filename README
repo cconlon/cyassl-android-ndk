@@ -1,0 +1,43 @@
+
+CyaSSL Embedded SSL Library Android NDK Package
+
+This is a Android NDK package of the CyaSSL Embedded SSL library, which 
+also includes a CTaoCrypt test application.  It should be helpful to Android
+developers who are embedding the CyaSSL library into NDK applications.
+
+===========================================================================
+REQUIREMENTS:
+
+Before building or installing this package, you must have the Android SDK
+and NDK installed and set up on your system.
+
+===========================================================================
+BUILDING:
+
+To build and install this package, run:
+
+android update project -p . -s
+ndk-build
+ant debug
+
+===========================================================================
+INSTALLING:
+
+To install this package in a running Android emulator, run:
+
+ant install
+
+When the example application (TestCTaoCrypt) is run, it first installs
+required test certificates on the SD card of the emulator, under the
+/certs directory (/sdcard/certs). Make sure your emulator is equipped
+with an SD card before running TestCTaoCrypt.
+
+===========================================================================
+SUPPORT:
+
+If you have any questions or comments, please contact us at:
+support@yassl.com
+
+Copyright © 2010 - yaSSL
+All rights reserved.
+
