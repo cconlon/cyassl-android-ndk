@@ -10,6 +10,10 @@ which is needed in order to be linked to the TestCTaoCrypt application's
 native library (libctctest.so). It should be trivial to build a shared 
 CyaSSL library, if need be.
 
+If you would rather cross compile CyaSSL for Android using the NDK
+standalone toolchain, please use the cross-compilation script from
+yaSSL (www.yassl.com).
+
 ===========================================================================
 REQUIREMENTS:
 
