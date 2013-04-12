@@ -11,8 +11,8 @@ native library (libctctest.so). It should be trivial to build a shared
 CyaSSL library, if need be.
 
 If you would rather cross compile CyaSSL for Android using the NDK
-standalone toolchain, please use the cross-compilation script from
-yaSSL (www.yassl.com).
+standalone toolchain, please use the cross-compilation script. See below
+for details.
 
 ===========================================================================
 REQUIREMENTS:
@@ -42,11 +42,20 @@ required test certificates on the SD card of the emulator, under the
 with an SD card before running TestCTaoCrypt.
 
 ===========================================================================
+CROSS COMPILING:
+
+As an alternate to compiling CyaSSL using this Android NDK package, it is
+oftentimes easier to cross compile CyaSSL using the standalone Android
+NDK toolchain. A script to help with cross-compilation is included in this
+package, called "cyassl-android-ndk.sh". For details about using this
+script, please see the script comments.
+
+===========================================================================
 SUPPORT:
 
 If you have any questions or comments, please contact us at:
-support@yassl.com
+support@wolfssl.com
 
-Copyright © 2010 - yaSSL
+Copyright © 213 wolfSSL Inc.
 All rights reserved.
 
